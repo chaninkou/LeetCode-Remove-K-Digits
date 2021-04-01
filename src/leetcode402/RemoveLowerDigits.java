@@ -14,7 +14,7 @@ public class RemoveLowerDigits {
         
         int i = 0;
         
-        // Remove all the digits that is lower here.
+        // Remove all the digits that is lower
         while(i < len){
             // when current < previous, discard previous
             while(k > 0 && !stack.isEmpty() && stack.peek() > num.charAt(i)){
